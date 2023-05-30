@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test card components should test Card component 1`] = `
+<section
+  className="bg-[#F3F4F6] pt-20 pb-10 lg:pt-[120px] lg:pb-20"
+>
+  <h2
+    className="text-4xl font-extrabold dark:text-white"
+  >
+    Categories
+  </h2>
+  <p
+    className="pb-8 my-4 text-lg text-gray-500"
+  >
+    Browse through a wide range of the latest electronics consoles, clothes, mobile you’ve been dreaming of. 
+  </p>
+  <div
+    className="container mx-auto"
+  >
+    <div
+      className="-mx-4 flex flex-wrap"
+    >
+      <div
+        className="w-full px-4 md:w-1/2 xl:w-1/3"
+        key="Men's clothing"
+      >
+        <div
+          className="mb-10 overflow-hidden rounded-lg bg-white"
+        >
+          <img
+            alt="image"
+            className="w-full"
+            src="mens-fashion.jpeg"
+          />
+          <div
+            className="p-8 text-center sm:p-9 md:p-7 xl:p-9"
+          >
+            <h3>
+              <Link
+                className="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                to="/categories/men's clothing"
+              >
+                Men's clothing
+              </Link>
+            </h3>
+            <p
+              className="text-body-color mb-7 text-base leading-relaxed"
+            >
+              Given how powerful social media has become these days, everyone around the world wants to look their best at all times.
+            </p>
+            <Link
+              className="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
+              to="/categories/men's clothing"
+            >
+              View Details
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div
+        className="w-full px-4 md:w-1/2 xl:w-1/3"
+        key="Women's clothing"
+      >
+        <div
+          className="mb-10 overflow-hidden rounded-lg bg-white"
+        >
+          <img
+            alt="image"
+            className="w-full"
+            src="womens-fashion.jpeg"
+          />
+          <div
+            className="p-8 text-center sm:p-9 md:p-7 xl:p-9"
+          >
+            <h3>
+              <Link
+                className="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                to="/categories/women's clothing"
+              >
+                Women's clothing
+              </Link>
+            </h3>
+            <p
+              className="text-body-color mb-7 text-base leading-relaxed"
+            >
+              Sarees are the most elegant and timeless forms of attire. From weddings to parties, sarees are the one type of ethnic outfit.
+            </p>
+            <Link
+              className="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
+              to="/categories/women's clothing"
+            >
+              View Details
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div
+        className="w-full px-4 md:w-1/2 xl:w-1/3"
+        key="Electronics"
+      >
+        <div
+          className="mb-10 overflow-hidden rounded-lg bg-white"
+        >
+          <img
+            alt="image"
+            className="w-full"
+            src="electronics.jpeg"
+          />
+          <div
+            className="p-8 text-center sm:p-9 md:p-7 xl:p-9"
+          >
+            <h3>
+              <Link
+                className="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                to="/categories/electronics"
+              >
+                Electronics
+              </Link>
+            </h3>
+            <p
+              className="text-body-color mb-7 text-base leading-relaxed"
+            >
+              A stylish and trendy phone cover that suits your taste and personality is a must-have to enhance the looks.
+            </p>
+            <Link
+              className="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
+              to="/categories/electronics"
+            >
+              View Details
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

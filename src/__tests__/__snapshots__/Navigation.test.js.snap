@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Navigation components should test Navigation component 1`] = `
+<Fragment>
+  <header
+    className="flex w-full items-center bg-white"
+  >
+    <div
+      className="container mx-auto"
+    >
+      <div
+        className="relative -mx-4 flex items-center justify-between"
+      >
+        <div
+          className="w-60 max-w-full px-4"
+        >
+          <Link
+            className="block w-full py-5"
+            to="/"
+          >
+            <img
+              alt="logo"
+              className="w-full"
+              src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
+            />
+          </Link>
+        </div>
+        <div
+          className="flex w-full items-center justify-between px-4"
+        >
+          <div>
+            <button
+              className=" ring-primary absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] focus:ring-2 lg:hidden"
+              id="navbarToggler"
+              onClick={[Function]}
+            >
+              <span
+                className="bg-body-color relative my-[6px] block h-[2px] w-[30px]"
+              />
+              <span
+                className="bg-body-color relative my-[6px] block h-[2px] w-[30px]"
+              />
+              <span
+                className="bg-body-color relative my-[6px] block h-[2px] w-[30px]"
+              />
+            </button>
+            <nav
+              className="absolute right-4 top-full w-full max-w-[250px] hidden rounded-lg bg-white py-5 px-6 shadow lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none"
+              id="navbarCollapse"
+            >
+              <ul
+                className="block lg:flex"
+              >
+                <li>
+                  <Link
+                    className="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex"
+                    to="/"
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex"
+                    to="products"
+                  >
+                    Products
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div
+            className="hidden justify-end pr-16 sm:flex lg:pr-0"
+          >
+            <Link
+              className="py-3 px-7"
+              to="/cart"
+            >
+              <span
+                className="relative inline-block"
+              >
+                <svg
+                  className="flex-1 w-8 h-8 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z"
+                  />
+                </svg>
+              </span>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</Fragment>
+`;

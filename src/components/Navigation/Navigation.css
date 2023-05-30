@@ -1,0 +1,8 @@
+.bg-body-color{
+    --tw-bg-opacity: 1;
+    background-color: rgb(99 115 129 / var(--tw-bg-opacity));
+}
+
+.shadow {
+    z-index: 1;
+}

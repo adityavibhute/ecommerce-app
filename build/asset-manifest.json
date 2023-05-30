@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dbc53c83.css",
+    "main.js": "/static/js/main.c969f9b7.js",
+    "static/js/787.93565e32.chunk.js": "/static/js/787.93565e32.chunk.js",
+    "static/media/slide-two.jpg": "/static/media/slide-two.c6ed1bfaa390f6ad9145.jpg",
+    "static/media/slide-three.jpeg": "/static/media/slide-three.bd3828e6fa3aba85151d.jpeg",
+    "static/media/slide-one.jpeg": "/static/media/slide-one.95951180ce4ebb4beca6.jpeg",
+    "static/media/electronics.jpeg": "/static/media/electronics.182d76c94db437215e02.jpeg",
+    "static/media/mens-fashion.jpeg": "/static/media/mens-fashion.946f51fb7651655eb459.jpeg",
+    "service-worker.js": "/service-worker.js",
+    "static/media/womens-fashion.jpeg": "/static/media/womens-fashion.46a2a3c39c48f4175abf.jpeg",
+    "index.html": "/index.html",
+    "main.dbc53c83.css.map": "/static/css/main.dbc53c83.css.map",
+    "main.c969f9b7.js.map": "/static/js/main.c969f9b7.js.map",
+    "787.93565e32.chunk.js.map": "/static/js/787.93565e32.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbc53c83.css",
+    "static/js/main.c969f9b7.js"
+  ]
+}

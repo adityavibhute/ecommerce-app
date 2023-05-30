@@ -1,0 +1,27 @@
+{
+	"id": "3232-af-vac",
+	"short_name": "ecommerce",
+	"name": "ecommerce-app",
+	"icons": [{
+		"src":"maskable.png",
+		"sizes": "67X67",
+		"type": "image/png",
+		"purpose":"any maskable"
+	},{
+			"src": "logo192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "logo512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"theme_color": "#0c60a3",
+	"background_color": "#d6e3ed",
+	"display": "standalone",
+	"scope": "/",
+	"start_url": "/",
+	"prefer_related_applications": true
+}

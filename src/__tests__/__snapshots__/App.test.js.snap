@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APP components should test App component 1`] = `
+<div
+  className="App"
+>
+  <ContextProvider
+    value={
+      Object {
+        "dispatch": [Function],
+        "productDetails": Object {
+          "products": Array [],
+          "total": 0,
+        },
+      }
+    }
+  >
+    <Navigation />
+    <Routes>
+      <Route
+        element={<HeroBanner />}
+        path="/"
+      />
+      <Route
+        path="/products"
+      >
+        <Route
+          element={<ProductCategory />}
+          index={true}
+        />
+        <Route
+          element={<ProductSpecific />}
+          path=":id"
+        />
+      </Route>
+      <Route
+        path="/categories"
+      >
+        <Route
+          path="men's clothing"
+        >
+          <Route
+            element={<ProductCategory />}
+            index={true}
+          />
+          <Route
+            element={<ProductSpecific />}
+            path=":id"
+          />
+        </Route>
+        <Route
+          path="women's clothing"
+        >
+          <Route
+            element={<ProductCategory />}
+            index={true}
+          />
+          <Route
+            element={<ProductSpecific />}
+            path=":id"
+          />
+        </Route>
+        <Route
+          path="electronics"
+        >
+          <Route
+            element={<ProductCategory />}
+            index={true}
+          />
+          <Route
+            element={<ProductSpecific />}
+            path=":id"
+          />
+        </Route>
+      </Route>
+      <Route
+        element={<CartList />}
+        path="cart"
+      />
+    </Routes>
+    <Footer />
+  </ContextProvider>
+</div>
+`;

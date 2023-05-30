@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test ProductCategory components should test ProductCategory component 1`] = `
+<span
+  class="sr-only"
+>
+  Loading...
+</span>
+`;
