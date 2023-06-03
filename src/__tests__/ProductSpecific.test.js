@@ -52,12 +52,8 @@ afterEach(() => {
 
 describe('test ProductSpecific components', () => {
   it('should test ProductSpecific component', () => {
-    render(
-      <MemoryRouter>
-        <ProductSpecific />
-      </MemoryRouter>
-    );
-    expect(screen.getByText('Add to Cart')).toBeInTheDocument();
+    const { getByText } = render(<ProductSpecific />);
+    expect(getByText('Add to Cart')).toBeInTheDocument();
   });
   it('clicking Add to Cart button adds the product to the cart and navigates to /cart', () => {
     const { getByText } = render(<ProductSpecific />);
